@@ -6,6 +6,7 @@
 
 .main-grid div {
   background: black;
+  transition: transform .3s;
 }
 
 .main-grid div:nth-child(1) {
@@ -36,4 +37,16 @@
 .main-grid div:nth-child(6) {
   background: url('https://www.oshonews.com/wp-content/uploads/2014/08/Watermelon-Patch.png');
   background-position: 50% 50%;
+}
+
+.main-grid div:nth-child(1):hover {
+  transform: rotateX(40deg);
+}
+
+.main-grid div:nth-child(2):hover {
+  transform: rotateY(180deg);
+}
+
+.main-grid div:nth-child(3):hover {
+  transform: scale(1.3);
 }
