@@ -1,4 +1,15 @@
 html {
-  background: black;
-  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 1.9em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.tagline {
+  color: #e5e5e5;
 }
