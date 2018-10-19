@@ -1,4 +1,39 @@
-html {
+.main-grid {
+  display: grid;
+  grid-template: repeat(3, 150px) / repeat(3, 150px);
+  grid-gap: 10px;
+}
+
+.main-grid div {
   background: black;
-  color: white;
+}
+
+.main-grid div:nth-child(1) {
+  background: url('https://livelovefruit.com/wp-content/uploads/2013/07/health-benefits-of-watermelon.jpg');
+  background-position: 50% 50%;
+}
+
+.main-grid div:nth-child(2) {
+  background: url('http://www.fruitsvege.com/wp-content/uploads/2012/08/Watermelon-is-fruit.jpg');
+  background-position: 50% 50%;
+}
+
+.main-grid div:nth-child(3) {
+  background: url('https://i2.wp.com/makezine.com/wp-content/uploads/2015/07/watermelon-shark-in-bowl-featured-image.jpg?resize=1200%2C670&strip=all&ssl=1');
+  background-position: 50% 50%;
+}
+
+.main-grid div:nth-child(4) {
+  background: url('https://i.ytimg.com/vi/f8MTG_y7wUQ/maxresdefault.jpg');
+  background-position: 50% 50%;
+}
+
+.main-grid div:nth-child(5) {
+  background: url('https://i.ytimg.com/vi/9k8x7CN_YKk/maxresdefault.jpg');
+  background-position: 50% 50%;
+}
+
+.main-grid div:nth-child(6) {
+  background: url('https://www.oshonews.com/wp-content/uploads/2014/08/Watermelon-Patch.png');
+  background-position: 50% 50%;
 }
